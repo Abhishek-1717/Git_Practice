@@ -1,0 +1,21 @@
+package editor.com;
+
+import java.util.Scanner;
+
+public class TestJava {
+
+	public static void main(String[] args) {
+	
+
+try (Scanner sc = new Scanner(System.in)) {
+	int num = sc.nextInt();
+		while( num ==18)
+		{
+			num++;
+			System.out.println(num);
+		}
+}
+
+	}
+
+}
